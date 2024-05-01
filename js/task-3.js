@@ -3,7 +3,7 @@ const profile = {
     playTime: 300,
 
     changeUsername(newName) {
-        profile.this = newName;
+       this.username = newName;
     },
 
     updatePlayTime(hours) {
